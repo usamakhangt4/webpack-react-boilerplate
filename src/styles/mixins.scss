@@ -1,0 +1,13 @@
+@import './config.scss';
+
+.main-container {
+  margin: auto;
+  max-width: 160rem;
+  padding-left: 7.3rem;
+  padding-right: 7.3rem;
+
+  @media (max-width: $breakpoint-mobile-max) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
